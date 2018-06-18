@@ -1,0 +1,12 @@
+- memstorage in express-session (default has memory leaks);
+- FireBird DB access;
+- Run nodejs app as windows service;
+- Distribute nodejs app as windows binary;
+- Performance;
+- Tests: api functional tests, unit tests;
+- Coding style, ESLint + our coding style;
+- RPC communication with UVOS, SCRAM authentication;
+- HTTPS;
+- Replace config_dump.php;
+- Documentation, decide on standard how to document API;
+- Replace XMLRPC with JSON;
