@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{06B0F93D-1C02-45EF-81B2-694454FE2AB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{8298B467-F0C5-44AD-AC10-3E9B37ABF176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "Lib\MyLib\MyLib.csproj", "{C1516E84-4FF8-4F6B-9C46-E818C1A2F07A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "websocket-rpc", "websocket-rpc", "{35CD65F8-8E46-4295-BA14-8E1A65137CB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{6D5A39D6-8253-4832-87F1-4B7C56B52A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketRPC.AspCore", "Lib\websocket-rpc\Source\WebSocketRPC.AspCore\WebSocketRPC.AspCore.csproj", "{CD5E8171-9E3E-420F-965C-B9207C0B5B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketRPC.JS", "Lib\websocket-rpc\Source\WebSocketRPC.JS\WebSocketRPC.JS.csproj", "{C3C8FB9F-A14A-415C-AEDE-F3F8212115AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06B0F93D-1C02-45EF-81B2-694454FE2AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B0F93D-1C02-45EF-81B2-694454FE2AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B0F93D-1C02-45EF-81B2-694454FE2AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B0F93D-1C02-45EF-81B2-694454FE2AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1516E84-4FF8-4F6B-9C46-E818C1A2F07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1516E84-4FF8-4F6B-9C46-E818C1A2F07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1516E84-4FF8-4F6B-9C46-E818C1A2F07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1516E84-4FF8-4F6B-9C46-E818C1A2F07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5E8171-9E3E-420F-965C-B9207C0B5B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5E8171-9E3E-420F-965C-B9207C0B5B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5E8171-9E3E-420F-965C-B9207C0B5B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5E8171-9E3E-420F-965C-B9207C0B5B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C8FB9F-A14A-415C-AEDE-F3F8212115AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C8FB9F-A14A-415C-AEDE-F3F8212115AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C8FB9F-A14A-415C-AEDE-F3F8212115AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C8FB9F-A14A-415C-AEDE-F3F8212115AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1516E84-4FF8-4F6B-9C46-E818C1A2F07A} = {8298B467-F0C5-44AD-AC10-3E9B37ABF176}
+		{35CD65F8-8E46-4295-BA14-8E1A65137CB1} = {8298B467-F0C5-44AD-AC10-3E9B37ABF176}
+		{6D5A39D6-8253-4832-87F1-4B7C56B52A6E} = {35CD65F8-8E46-4295-BA14-8E1A65137CB1}
+		{CD5E8171-9E3E-420F-965C-B9207C0B5B89} = {6D5A39D6-8253-4832-87F1-4B7C56B52A6E}
+		{C3C8FB9F-A14A-415C-AEDE-F3F8212115AB} = {6D5A39D6-8253-4832-87F1-4B7C56B52A6E}
+	EndGlobalSection
+EndGlobal

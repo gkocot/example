@@ -1,0 +1,3 @@
+**/bin
+**/obj
+/Lib/websocket-rpc
